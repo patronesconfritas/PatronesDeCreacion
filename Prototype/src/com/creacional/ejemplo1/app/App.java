@@ -11,6 +11,15 @@ public class App {
 		
 		TelevisionGenerica tvGenerica = (LCD) tvp.getPrototipo("LCD");
 		
+		TelevisionGenerica tvGenerica2 = (LCD) tvp.getPrototipo("LCD");
+		
+		System.out.println(tvGenerica);
+		
+		System.out.println(tvGenerica2);
+		
+		//comparo que la clonacion me crea dos objetos diferentes
+		System.out.println(tvGenerica==tvGenerica2);
+		
 		System.out.println(tvGenerica.getMarca());
 	}
 

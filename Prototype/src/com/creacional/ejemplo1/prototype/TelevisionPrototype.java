@@ -17,7 +17,7 @@ public class TelevisionPrototype {
 	}
 	
 	public Object getPrototipo(String tipo) throws CloneNotSupportedException {
-		Object ob = prototipos.get("tipo").clone();
+		Object ob = prototipos.get(tipo).clone();
 		return ob;
 	}
 }
